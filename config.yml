@@ -1,0 +1,19 @@
+calibration:
+  voxels: [5, 1]
+  distance_thresholds: [20, 10]
+  source_index: 0
+  target_index: 1
+  visualization: false
+
+dataset:
+  path: "/home/alia/Documents/Kinect/pc_merging/test_refactor"
+
+transformation:
+  euler_angles:
+    yaw: -45.065  # Rotation about Z-axis (degrees)
+    pitch: -66.796  # Rotation about Y-axis (degrees)
+    roll: 30.832  # Rotation about X-axis (degrees)
+  translation:
+    tx: 1662.90391
+    ty: -431.823753
+    tz: 1668.25336
