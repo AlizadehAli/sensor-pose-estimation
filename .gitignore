@@ -1,5 +1,5 @@
 # Ignore calibration data
-/path/to/calib_data/
+calib_data/
 *.ply
 *.pcd
 
@@ -15,3 +15,10 @@ __pycache__/
 *.pyd
 venv/
 .env
+
+# Ignore generated files
+*.jpg
+*.png
+*.bmp
+*.log
+*.txt
